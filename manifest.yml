@@ -6,3 +6,6 @@ role: batch_connect
 description: |
   This app will launch a MATLAB GUI. You will be able
   to interact with the MATLAB GUI through a VNC session.
+
+  NOTE: You must be a part of the "matlab" group. Contact
+  support if you are not in this group.
