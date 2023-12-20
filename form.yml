@@ -15,14 +15,16 @@ attributes:
     value: "8"
     min: 1
     id: 'num_mem'
-  bc_num_hours:
+  num_days:
+    widget: "number_field"
+    label: "Runtime in Days"
+    value: 1
     min: 1
-    max: 24
+    max: 7
   partition:
     widget: select
     label: "Partition"
     options:
-      - "short"
       - "epyc"
       - "intel"
       - "batch"
@@ -30,5 +32,5 @@ form:
   - modules
   - num_cores
   - num_mem
-  - bc_num_hours
+  - num_days
   - partition
